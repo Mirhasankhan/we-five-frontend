@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Wireless Headphones",
+    "price": 59.99,
+    "image": "https://i.ibb.co.com/19wnV79/icon-1.png",
+    "rating": 4.5,
+    "_id": "1"
+  },
+  {
+    "name": "Smartphone Case",
+    "price": 12.49,
+    "image": "https://i.ibb.co.com/2hqg3cG/icon-2.png",
+    "rating": 4.0,
+    "_id": "2"
+  },
+  {
+    "name": "Gaming Mouse",
+    "price": 29.99,
+    "image": "https://i.ibb.co.com/vHnjT4B/icon-3.png",
+    "rating": 4.7,
+    "_id": "3"
+  },
+  {
+    "name": "Water Bottle",
+    "price": 15.99,
+    "image": "https://i.ibb.co.com/VmZ5ZZ9/icon.png",
+    "rating": 4.2,
+    "_id": "4"
+  },
+  {
+    "name": "Wireless Headphones",
+    "price": 59.99,
+    "image": "https://i.ibb.co.com/19wnV79/icon-1.png",
+    "rating": 4.5,
+    "_id": "5"
+  },
+  {
+    "name": "Smartphone Case",
+    "price": 12.49,
+    "image": "https://i.ibb.co.com/2hqg3cG/icon-2.png",
+    "rating": 4.0,
+    "_id": "6"
+  },
+  {
+    "name": "Gaming Mouse",
+    "price": 29.99,
+    "image": "https://i.ibb.co.com/vHnjT4B/icon-3.png",
+    "rating": 4.7,
+    "_id": "7"
+  },
+  {
+    "name": "Water Bottle",
+    "price": 15.99,
+    "image": "https://i.ibb.co.com/VmZ5ZZ9/icon.png",
+    "rating": 4.2,
+    "_id": "8"
+  }
+]
