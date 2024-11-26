@@ -26,7 +26,7 @@ const FeaturedProudcts = () => {
           <GoArrowRight className="text-[#6441C2] text-2xl p-1 border border-[#6441C2] rounded-full"></GoArrowRight>
         </div>
       </div>
-      <div className="bg-white p-2 grid grid-cols-4 gap-6 overflow-x-auto">
+      <div className="bg-white p-2 flex gap-6 overflow-x-auto">
         {products?.slice(0, 4).map((product: TProduct) => (
           <Card key={product._id} bigDeal={false} product={product}></Card>
         ))}

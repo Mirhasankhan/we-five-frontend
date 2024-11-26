@@ -20,13 +20,14 @@ const Card = ({
   return (
     <Link href={`products/${product?._id}`} className="relative">
       <div>
-        <Image
-          className="rounded-md"
-          src={product?.image}
-          height={100}
-          width={280}
-          alt=""
-        ></Image>
+        <div className="relative w-[280px] h-[280px]">
+          <Image
+            className="rounded-md object-cover"
+            src={product?.image}
+            alt=""
+            fill
+          />
+        </div>
         {bigDeal && (
           <div className="flex items-center mt-2">
             <Rate allowHalf value={product?.rating} />

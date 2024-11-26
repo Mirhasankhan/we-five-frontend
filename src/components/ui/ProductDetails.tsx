@@ -48,16 +48,32 @@ const ProductDetails = ({ product }: { product: TProduct }) => {
             <h1>({product?.rating})</h1>
           </div>
           <div className="border-t-2 border-gray-300 pt-4">
-            <Progress percent={30} />
-            <Progress percent={50} />
-            <Progress percent={70} />
-            <Progress percent={20} />
+            <div className="flex gap-1">
+              <h5>5</h5>
+              <Progress showInfo={false} percent={30} />
+            </div>
+            <div className="flex gap-1">
+              <h5>4</h5>
+              <Progress showInfo={false} percent={40} />
+            </div>
+            <div className="flex gap-1">
+              <h5>3</h5>
+              <Progress showInfo={false} percent={60} />
+            </div>
+            <div className="flex gap-1">
+              <h5>2</h5>
+              <Progress showInfo={false} percent={10} />
+            </div>
+            <div className="flex gap-1">
+              <h5>1</h5>
+              <Progress showInfo={false} percent={20} />
+            </div>
           </div>
         </div>
       </div>
       <div>
         <h1 className="text-xl font-semibold">Related Products</h1>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 my-6">
+        <div className="flex overflow-x-auto gap-6 my-6">
           <Card bigDeal={false} product={product}></Card>
           <Card bigDeal={false} product={product}></Card>
           <Card bigDeal={false} product={product}></Card>

@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="px-4 md:px-16 py-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <Image src={logo} height={100} width={280} alt=""></Image>
+            <Image src={logo} height={60} width={240} alt=""></Image>
             <p>
               Saepe quo suscipit vitae quia. Repudiandae nobis quis. Laboriosam
               unde quae qui quasi mollitia tenetur. Dicta explicabo est

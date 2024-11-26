@@ -14,7 +14,20 @@ const Header = () => {
         <div className="md:hidden">
           <HiOutlineMenuAlt2></HiOutlineMenuAlt2>
         </div>
-        <Image src={logo} height={80} width={80} alt=""></Image>
+        <Image
+          className="md:hidden"
+          src={logo}
+          height={80}
+          width={80}
+          alt=""
+        ></Image>
+        <Image
+          className="hidden md:block"
+          src={logo}
+          height={80}
+          width={120}
+          alt=""
+        ></Image>
       </div>
       <div className="hidden md:flex text-[#646464] items-center gap-6">
         <Link className="text-[#581FC1]" href="/">

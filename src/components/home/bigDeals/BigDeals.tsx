@@ -26,7 +26,7 @@ const BigDeals = () => {
           <GoArrowRight className="text-[#6441C2] text-2xl p-1 border border-[#6441C2] rounded-full"></GoArrowRight>
         </div>
       </div>
-      <div className="bg-white p-2 md:grid grid-cols-4 gap-6">
+      <div className="bg-white md:grid md:grid-cols-4 p-2 flex overflow-x-auto gap-6">
         {products?.map((product: TProduct) => (
           <Card key={product._id} bigDeal={true} product={product}></Card>
         ))}

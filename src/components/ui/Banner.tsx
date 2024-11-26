@@ -1,4 +1,4 @@
-import bgImage from "../../assets/images/bg.png";
+import bgImage from "../../assets/images/bg-3.png";
 import bgImage2 from "../../assets/images/bg-2.png";
 import truck from "../../assets/images/truck-delivery.png";
 import payment from "../../assets/images/payment-02.png";
