@@ -19,3 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bg-image {
+  @apply text-white flex bg-[length:100%_350px]  md:bg-[length:100%_500px] bg-no-repeat bg-center w-full md:h-[500px] h-[350px]  flex-col items-center text-center justify-center;
+}

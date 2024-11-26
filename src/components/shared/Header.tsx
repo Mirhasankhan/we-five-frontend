@@ -9,7 +9,7 @@ import { HiOutlineMenuAlt2 } from "react-icons/hi";
 
 const Header = () => {
   return (
-    <div className="flex justify-between py-2 items-center">
+    <div className="flex justify-between py-3 items-center">
       <div className="flex items-center gap-1">
         <div className="md:hidden">
           <HiOutlineMenuAlt2></HiOutlineMenuAlt2>
@@ -22,7 +22,7 @@ const Header = () => {
         </Link>
         <Link href="/">Shop</Link>
         <Link href="/">Deals</Link>
-        <Link href="/">What New</Link>
+        <Link href="/">What&lsquo;s New</Link>
       </div>
       <div className="flex items-center gap-2 md:relative">
         <input

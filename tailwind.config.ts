@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "hsla(256, 65%, 66%, 1)",
       },
     },
   },
